@@ -1,0 +1,148 @@
+:root{ /*Padroniza o arquivo HTML por completo*/
+    /*variaveis CSS (-_-)*/
+    --main-white: #FFFFFF;
+    --secundary-gray: #C0C0C0;
+    --red-button: #ff0000;
+    --background-color: #000000;
+    --main-font: "inter";
+}
+body{
+    background-color: var(--background-color);
+    color: var(--main-white);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+*{ /*Pega todos os elementos HTML e os padroniza*/
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image: url("pics/Morumbi\ ❤️_🔥.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container_button{
+    background-color: var(--red-button);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--main-white);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.secundary_button{
+    background-color: transparent;
+    border: 2px solid var(--main-white);
+}
+.container_alert{
+    font-size: 12px;
+    color: var(--secundary-gray);
+}
+.container_title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.container_image{
+    margin: 1em 0 2em 0;
+    height: 400;
+}
+.container_box{
+    margin: 0 6em;
+}
+.secundary_image{
+    width: 110%;
+}
+.secundary{
+    align-items: center;
+    margin: 0 6em;
+}
+.container_description{
+    background-color: rgba(255, 0, 0, 0.121);
+    padding: 1em;
+    border-radius: 15px;
+}
+.title_description{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--main-white);
+    margin-bottom: 0.1em;
+}
+.text_descrition{
+    color: var(--secundary-gray);
+}
+.container_description2{
+    padding: 2em;
+    border-radius: 15px;
+}
+.tertiary_button{
+    display: inline-block;
+    margin-top: 1em;
+}
+.screens{
+    text-align: center;
+}
+.screens_lists{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.screens_text{
+    font-size: 20px;
+}
+.title_description{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--main-white);
+}
+.footer{
+    text-align: center;
+}
+.footer_image{
+    width: 10%;
+    justify-content: center;
+}
+.btns{
+    color: var(--main-white);
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 0 2em 2em;
+}
+.footer_text{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 1em;
+    color: var(--secundary-gray);
+}
+.footer_list{
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    margin: 1em;
+}
+.btns:hover{
+    color:var(--red-button)
+}
+.container_button:hover{
+    border-radius: 15px;
+    background-color: #7a0000;
+    color: gray;
+}
+.secundary_button:hover{
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid gray;
+    color: gray;
+}
+.btns:active{
+    color: rgb(92, 0, 0);
+}
